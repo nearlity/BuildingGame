@@ -1,0 +1,82 @@
+[LOG]GameMain Awake
+[LL_Log]==GameMain Awake==9/4/2018 6:28:00 PM
+[LL_Log]976x581  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1116-D 
+ processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
+gdName:NVIDIA GeForce GTX 1060 3GB graphMemory:2986 sysMemory:16330 processorCount:4 
+graphicsDeviceVendor:NVIDIA, graphicsDeviceVersion:Direct3D 11.0 [level 11.0], maxTextureSize:16384
+[LL_Log]PlatformSDK type=DumyPlatformSDK
+[LL_Log]GameMain Start2
+[LL_Log]GameMain Start3
+[LL_Log]SkipHotUpdate：MogoFileSystem.Instance.InitE:/xiaoyongqiang/BuildGAME-RPG/Assets/StreamingAssets/setting.pkg
+[LL_Log]file count: 57 init time: 10
+[LL_Error]HotUpdateManager.HotUpdateEnd
+[LL_Log]LoadManifest
+[LL_Log]ShaderManager.Load
+[LL_Log]InitGame.Font
+[LL_Warning]ResItem(font/miniyahei)--assetbundle with DEPENT_SINGLE_ASSET format contains more than one assets
+[LL_Log]InitGame.common_atlas
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[LL_Log]sdk=!!!
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[LOG]Scanning - Process took 2 ms to complete
+[LL_Error]灯光贴图不存在，配置填写名字为map5_lightmap
+[LL_Warning]SlicedScene.CompletedCallBack used size13.68M heapSize65.49M
+[LL_Log]InitFrame 11.75425 frame 0
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[EXCEPTION]ArgumentNullException: Argument cannot be null.
+Parameter name: key
+[TRACK]System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[EffectInfo]].ContainsKey (System.String key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:458)
+EffectManager.GetEffectFromCache (System.String name)
+EffectManager.LoadEffect (System.String sfxName, System.Action`1 succeedCB, System.Action`1 failedCB)
+SpecialEffect.Load ()
+SpecialEffect.InitData (Int32 key, .SpecialEffectData data)
+SpecialEffect.Play (UnityEngine.GameObject go, Int32 key, .SpecialEffectData data)
+EffectManager.AddSpecialEffect (Int32 key, UnityEngine.Transform parent, .SpecialEffectData data)
+RoleGuiseControl.AddRoleSpecialEffect (Int32 eid, .SpecialEffectData data)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+System.Delegate.DynamicInvokeImpl (System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Delegate.cs:443)
+System.MulticastDelegate.DynamicInvokeImpl (System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/MulticastDelegate.cs:71)
+System.Delegate.DynamicInvoke (System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Delegate.cs:415)
+InsideMsgTransmit.SendMsg (INSIDE_MSG_TYPE msgType, System.Object[] values)
+Role.AddSpecialEffect (.SpecialEffectData data, Boolean ignoredLimit)
+Role.BeHitClient (Int32 atkerEID, Int32 skillID, Int32 subSkillID)
+Missile.AttackInScene (System.Collections.Generic.List`1 objs)
+Missile.ReleaseSubSkill ()
+Missile.Tick (Single deltaFrame)
+SubSkill.Tick (Single deltaFrame)
+SubSkillTimeLine.Tick (Single deltaFrame)
+SkillControl.Breath (Single deltaFrame)
+RoleControl.Breath ()
+FrameManager.Breath ()
+FrameManager.Update ()
+BaseScene.Update ()
+SlicedScene.Update ()
+SceneManager.Update ()
+
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'

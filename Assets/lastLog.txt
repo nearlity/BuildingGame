@@ -1,0 +1,44 @@
+[LOG]GameMain Awake
+[LL_Log]==GameMain Awake==9/4/2018 6:22:12 PM
+[LL_Log]976x581  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1116-D 
+ processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
+gdName:NVIDIA GeForce GTX 1060 3GB graphMemory:2986 sysMemory:16330 processorCount:4 
+graphicsDeviceVendor:NVIDIA, graphicsDeviceVersion:Direct3D 11.0 [level 11.0], maxTextureSize:16384
+[LL_Log]PlatformSDK type=DumyPlatformSDK
+[LL_Log]GameMain Start2
+[LL_Log]GameMain Start3
+[LL_Log]SkipHotUpdate：MogoFileSystem.Instance.InitE:/xiaoyongqiang/BuildGAME-RPG/Assets/StreamingAssets/setting.pkg
+[LL_Log]file count: 57 init time: 9
+[LL_Error]HotUpdateManager.HotUpdateEnd
+[LL_Log]LoadManifest
+[LL_Log]ShaderManager.Load
+[LL_Log]InitGame.Font
+[LL_Log]InitGame.common_atlas
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[LL_Log]sdk=!!!
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[LOG]Scanning - Process took 3 ms to complete
+[LL_Error]灯光贴图不存在，配置填写名字为map5_lightmap
+[LL_Warning]SlicedScene.CompletedCallBack used size13.02M heapSize65.49M
+[LL_Log]InitFrame 5.550685 frame 0
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[LL_Error]Unknown Error
+file:///E:/xiaoyongqiang/BuildGAME-RPG/Assets/StreamingAssets/ui/prefab/attrui.u
+[LL_Log]url: E:/xiaoyongqiang/BuildGAME-RPG/Assets/StreamingAssets/ui/prefab/attrui.u
+[LL_Error]ResManager--LoadResFailed, path=ui/prefab/attrui
+[LL_Error]UICom--LoadFailed, path=ui/prefab/attrui
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'skillpic') is missing!
+[ASSERT]Assertion failed on expression: 'width >= 0.'
+[ASSERT]Assertion failed on expression: 'width >= 0.'
