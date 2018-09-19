@@ -1,0 +1,4 @@
+<root>
+  <Version md5="1" program="1" apk="1" />
+  <RootConfig url="http://localhost:80/game/root_cfg.xml" />
+</root>
