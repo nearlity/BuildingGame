@@ -503,6 +503,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
     1: 
+    7: UNITY_5_3_OR_NEWER;ANDROID_MOBILE;GAME_CLIENT
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}

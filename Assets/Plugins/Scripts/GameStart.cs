@@ -10,6 +10,20 @@ using System.Text;
 using System.IO;
 using System.Threading;
 using Plugins;
+public class ApplicationEx
+{
+    public static RuntimePlatform platform
+    {
+        get
+        {
+#if ANDROID_MOBILE 
+            return RuntimePlatform.Android;
+#else
+            return Application.platform;
+#endif
+        }
+    }
+}
 
 public class URLs
 {
@@ -29,7 +43,7 @@ public class URLs
 
 
 
-			switch (Application.platform)
+            switch (ApplicationEx.platform)
 			{
 			case RuntimePlatform.OSXEditor:
 				_persistentDataPath = string.Format("{0}/../Build/ios/SDCard/", Application.dataPath);
@@ -91,7 +105,7 @@ public class URLs
 		{
 			if (!string.IsNullOrEmpty(_streamingAssetsPath))
 				return _streamingAssetsPath;
-			switch (Application.platform)
+            switch (ApplicationEx.platform)
 			{
 			case RuntimePlatform.OSXEditor:
 				_streamingAssetsPath = string.Format("file://{0}/../Build/ios/resources/", Application.dataPath);
@@ -221,7 +235,7 @@ public class GameStart : MonoBehaviour
 			APKRootCfgPath = URLs.streamingAssetsPath + "apk_cfg.xml";
 		}
 
-		Logger.isEditor = Application.platform == RuntimePlatform.WindowsEditor;
+        Logger.isEditor = ApplicationEx.platform == RuntimePlatform.WindowsEditor;
 		Logger.logLevel = LogLevel.LL_Info;
 
 		if (Plugins.Platform.editorPlatform != Plugins.EditorPlatform.WindowsWebPlayer)
@@ -315,14 +329,14 @@ public class GameStart : MonoBehaviour
 	{
 		SetupUI.instance.SetHint("版本检查中TryHotUpdate");
 
-		switch (Plugins.Platform.editorPlatform)
+        switch (ApplicationEx.platform)
 		{
-		case Plugins.EditorPlatform.WindowsWebPlayer:
+            case RuntimePlatform.WindowsWebPlayer:
 			WebPlayerCheckServerVersion();
 			return;
 		}
 
-		switch (Application.platform)
+        switch (ApplicationEx.platform)
 		{
 		case RuntimePlatform.Android:
 			Logger.Log("GetSDCardPath " + URLs.GetSDCardPath());
@@ -378,7 +392,7 @@ public class GameStart : MonoBehaviour
 		{
 			md5ZipBytes = www1.text;
 
-			if (Application.platform == RuntimePlatform.WindowsEditor)
+            if (ApplicationEx.platform == RuntimePlatform.WindowsEditor)
 				EnterGame();
 			else
 				DownloadDllAndEnterGame();
@@ -448,11 +462,11 @@ public class GameStart : MonoBehaviour
 	void EnterGame(Type t)
 	{
 		gameObject.AddComponent(t);
-		if (Plugins.Platform.editorPlatform != Plugins.EditorPlatform.WindowsWebPlayer)
+		if (ApplicationEx.platform!=  RuntimePlatform.WindowsWebPlayer)
 		{
-			//   Logger.LogHandler -= LogHandler;
-			//   Application.logMessageReceived -= HandleMessageReceived;
-			//   _logWriter.Release();
+            Logger.LogHandler -= LogHandler;
+            Application.logMessageReceived -= HandleMessageReceived;
+            _logWriter.Release();
 		}
 	}
 
@@ -748,7 +762,11 @@ public class GameStart : MonoBehaviour
 			return;
 		if (!md5ExportResult)
 			return;
-		CheckServerVersion();
+#if GAME_CLIENT
+    LoadLocalDLL();
+#else
+        CheckServerVersion();
+#endif
 	}
 
 	public const string CODE_PACKAGE = "com.xsfh.union";
@@ -934,7 +952,7 @@ public class GameStart : MonoBehaviour
 	{
 		Logger.Log("LoadLocalDLL " + DLLLoaclPath);
 		Type t;
-		if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.IPhonePlayer)
+        if (ApplicationEx.platform == RuntimePlatform.WindowsEditor || ApplicationEx.platform == RuntimePlatform.IPhonePlayer)
 		{
 			t = GetTypeFromAssembly();
 			Logger.Log("WindowsEditor Temp ");

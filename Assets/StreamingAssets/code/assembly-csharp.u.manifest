@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4187301162
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 15bb556e1a4b83961b1c56d9a4b3513c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Code/Assembly-CSharp.bytes
+Dependencies: []

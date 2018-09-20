@@ -1,0 +1,508 @@
+=====================
+[Log]2018-09-20 15:44:08,073 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Warning]2018-09-20 15:44:08,126 AddComponent asking for invalid type
+[TRACK]UnityEngine.GameObject:AddComponent(Type)
+GameStart:EnterGame(Type) (at Assets/Plugins/Scripts/GameStart.cs:450)
+GameStart:EnterGame() (at Assets/Plugins/Scripts/GameStart.cs:445)
+GameStart:TryHotUpdate() (at Assets/Plugins/Scripts/GameStart.cs:348)
+GameStart:Update() (at Assets/Plugins/Scripts/GameStart.cs:438)
+
+=====================
+[LL_Log]2018-09-20 15:46:03,475PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 15:46:03,557GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 15:46:03,557GetSDCardPath 
+[LL_Log]2018-09-20 15:46:03,557GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 15:46:03,558LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 15:46:03,586LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 15:46:03,827[FirstExport] version 1-1
+=====================
+[LL_Log]2018-09-20 15:46:48,934PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 15:46:49,017GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 15:46:49,017GetSDCardPath 
+[LL_Log]2018-09-20 15:46:49,017GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 15:46:49,017LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 15:46:49,021LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 15:46:49,036[FirstExport] version 1-1
+=====================
+[Log]2018-09-20 15:49:42,993 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Error]2018-09-20 15:49:43,087 GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[TRACK]UnityEngine.Debug:LogError(Object)
+Logger:Error(String, Object[])
+URLs:GetSDCardPath() (at Assets/Plugins/Scripts/GameStart.cs:95)
+GameStart:TryHotUpdate() (at Assets/Plugins/Scripts/GameStart.cs:342)
+GameStart:Update() (at Assets/Plugins/Scripts/GameStart.cs:452)
+
+[Log]2018-09-20 15:49:43,088 GetSDCardPath 
+[Log]2018-09-20 15:49:43,088 GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:49:43,090 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:49:43,123 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[Log]2018-09-20 15:49:43,392 [FirstExport] version 1-1
+=====================
+[Log]2018-09-20 15:51:14,945 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Log]2018-09-20 15:51:15,034 GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:51:15,035 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:51:15,040 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[Log]2018-09-20 15:51:15,057 [FirstExport] version 1-1
+=====================
+[Log]2018-09-20 15:54:36,164 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Log]2018-09-20 15:54:36,253 GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:54:36,254 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:54:36,281 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[Log]2018-09-20 15:54:36,522 [FirstExport] version 1-1
+[Log]2018-09-20 15:54:36,523 FirstExport
+[Log]2018-09-20 15:54:36,529 FirstExport.DLLFileName ... code/assembly-csharp.u
+[Log]2018-09-20 15:54:36,531 [ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 15:54:36,532 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u
+[Log]2018-09-20 15:54:36,534 FirstExport.ExportMD5 ... apkmd5/md5.zip
+[Log]2018-09-20 15:54:36,534 [ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[Log]2018-09-20 15:54:36,535 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip
+[Log]2018-09-20 15:54:36,559 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u,True
+[Log]2018-09-20 15:54:36,569 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip,True
+[Log]2018-09-20 15:54:36,584 [FirstExport] dllCallback success True-
+[Log]2018-09-20 15:54:36,588 [FirstExport] md5Callback success True-
+[Log]2018-09-20 15:54:36,591 CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[Log]2018-09-20 15:54:36,665 [DownloadFileFromServer] http://localhost:80/game/version/1/newestmd5/md5.zip
+[Log]2018-09-20 15:54:36,666 LoadFileForm:path = http://localhost:80/game/version/1/newestmd5/md5.zip
+[Log]2018-09-20 15:54:36,667 program updating ...0
+[Log]2018-09-20 15:54:36,680 program updating ...0
+[Log]2018-09-20 15:54:36,696 LoadFileForm:loaded = http://localhost:80/game/version/1/newestmd5/md5.zip,True
+[Log]2018-09-20 15:54:36,713 [CheckDllVersion] version local:1 vs server:1
+[Log]2018-09-20 15:54:36,714 LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 15:54:36,715 LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 15:54:36,729 LoadFileForm:loaded = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 15:54:36,780==GameMain Awake==9/20/2018 3:54:36 PM
+[LL_Error]2018-09-20 15:54:36,783GameMain.GetVersionCode Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at GameMain.GetVersionCode () [0x00000] in <filename unknown>:0 
+[LL_Log]2018-09-20 15:54:36,783GameMain.Awake.Set APK_VERSION_CODE 
+[LL_Error]2018-09-20 15:54:41,166解析url ip地址失败或获取玩家ip信息失败！ wwwUrl为：localhost:80 错误信息：不知道这样的主机。
+
+=====================
+[Log]2018-09-20 15:59:13,396 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Log]2018-09-20 15:59:13,561 GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:59:13,565 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 15:59:13,636 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[Log]2018-09-20 15:59:14,379 [FirstExport] version 1-1
+[Log]2018-09-20 15:59:14,381 Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[Log]2018-09-20 15:59:14,385 localVersion 1-1
+[Log]2018-09-20 15:59:14,386 [FirstExport] dllCallback success True-
+[Log]2018-09-20 15:59:14,387 [FirstExport] md5Callback success True-
+[Log]2018-09-20 15:59:14,393 CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[Log]2018-09-20 15:59:14,611 [CheckDllVersion] version local:1 vs server:1
+[Log]2018-09-20 15:59:14,619 LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 15:59:14,621 LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 15:59:14,711 LoadFileForm:loaded = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 15:59:51,804==GameMain Awake==9/20/2018 3:59:51 PM
+[LL_Error]2018-09-20 15:59:51,817GameMain.GetVersionCode Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at GameMain.GetVersionCode () [0x00000] in <filename unknown>:0 
+[LL_Log]2018-09-20 15:59:51,817GameMain.Awake.Set APK_VERSION_CODE 
+=====================
+[Log]2018-09-20 16:20:39,240 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Log]2018-09-20 16:20:39,318 GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 16:20:39,319 LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[Log]2018-09-20 16:20:39,348 LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[Log]2018-09-20 16:20:39,688 [FirstExport] version 1-1
+[Log]2018-09-20 16:20:39,690 Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[Log]2018-09-20 16:20:39,691 localVersion 1-1
+[Log]2018-09-20 16:20:39,692 [FirstExport] dllCallback success True-
+[Log]2018-09-20 16:20:39,693 [FirstExport] md5Callback success True-
+[Log]2018-09-20 16:20:39,695 CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[Log]2018-09-20 16:20:39,783 [CheckDllVersion] version local:1 vs server:1
+[Log]2018-09-20 16:20:39,784 LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[Log]2018-09-20 16:20:39,785 LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 16:25:19,043PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 16:25:19,122GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 16:25:19,122GetSDCardPath 
+[LL_Log]2018-09-20 16:25:19,122GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 16:25:19,122LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 16:25:19,151LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 16:25:19,475[FirstExport] version 1-1
+[LL_Log]2018-09-20 16:25:19,475Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 16:25:19,476localVersion 1-1
+[LL_Log]2018-09-20 16:25:19,476[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 16:25:19,477[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 16:25:19,477CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2018-09-20 16:25:19,491[DownLoadText]http://localhost:80/game/root_cfg.xml?type=39&ver=51&sign=25b12b86
+[LL_Log]2018-09-20 16:25:19,541APKVersion 1:1.0.0
+[LL_Log]2018-09-20 16:25:19,541[CheckMD5Version] version local:1 vs server:1
+[LL_Log]2018-09-20 16:25:19,548[CheckDllVersion] version local:1 vs server:1
+[LL_Log]2018-09-20 16:25:19,548LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 16:25:19,548LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:08:45,111PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:08:45,193GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:08:45,193GetSDCardPath 
+[LL_Log]2018-09-20 17:08:45,193GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:08:45,194LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:08:45,198LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:08:45,216[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:08:45,216Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:08:45,217localVersion 1-1
+[LL_Log]2018-09-20 17:08:45,217[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:08:45,218[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:08:45,218CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2018-09-20 17:08:45,229[DownLoadText]http://localhost:80/game/root_cfg.xml?type=3&ver=52&sign=61bafeaf
+[LL_Log]2018-09-20 17:08:45,722APKVersion 1:1.0.0
+[LL_Log]2018-09-20 17:08:45,722[CheckMD5Version] version local:1 vs server:1
+[LL_Log]2018-09-20 17:08:45,727[CheckDllVersion] version local:1 vs server:1
+[LL_Log]2018-09-20 17:08:45,728LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:08:45,728LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:13:26,260PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:13:26,341GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:13:26,341GetSDCardPath 
+[LL_Log]2018-09-20 17:13:26,341GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:13:26,341LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:13:26,345LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:13:26,361[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:13:26,361Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:13:26,362localVersion 1-1
+[LL_Log]2018-09-20 17:13:26,362[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:13:26,362[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:13:26,363CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2018-09-20 17:13:26,377[DownLoadText]http://localhost:80/game/root_cfg.xml?type=41&ver=64&sign=ded99937
+[LL_Log]2018-09-20 17:13:26,455APKVersion 1:1.0.0
+[LL_Log]2018-09-20 17:13:26,455[CheckMD5Version] version local:1 vs server:1
+[LL_Log]2018-09-20 17:13:26,698[CheckDllVersion] version local:1 vs server:1
+[LL_Log]2018-09-20 17:13:26,698LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:13:26,698LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:15:42,471PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:15:42,555GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:15:42,555GetSDCardPath 
+[LL_Log]2018-09-20 17:15:42,555GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:15:42,555LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:15:42,583LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:15:42,891[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:15:42,891FirstExport
+[LL_Log]2018-09-20 17:15:42,898FirstExport.DLLFileName ... code/assembly-csharp.u
+[LL_Log]2018-09-20 17:15:42,899[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:15:42,899LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:15:42,899FirstExport.ExportMD5 ... apkmd5/md5.zip
+[LL_Log]2018-09-20 17:15:42,899[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[LL_Log]2018-09-20 17:15:42,899LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip
+[LL_Log]2018-09-20 17:15:42,916LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 17:15:42,917LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip,True
+[LL_Log]2018-09-20 17:15:42,939[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:15:42,943[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:15:42,944CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2018-09-20 17:15:42,956[DownLoadText]http://localhost:80/game/root_cfg.xml?type=75&ver=1&sign=75c6477b
+[LL_Error]2018-09-20 17:15:44,990Error: ConnectFailure (由于目标计算机积极拒绝，无法连接。
+)
+[TRACK]  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.DownloadDataCore (System.Uri address, System.Object userToken) [0x00000] in <filename unknown>:0 
+[LL_Error]2018-09-20 17:15:44,990CheckServerVersion Download serverCfg Failed
+=====================
+[LL_Log]2018-09-20 17:20:31,899PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:20:31,979GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:20:31,979GetSDCardPath 
+[LL_Log]2018-09-20 17:20:31,979GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:20:31,979LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:20:31,983LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:20:31,998[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:20:31,999Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:20:31,999localVersion 1-1
+[LL_Log]2018-09-20 17:20:32,000[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:20:32,000[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:20:32,000LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:20:32,000LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:22:04,666PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:22:04,725GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:22:04,725GetSDCardPath 
+[LL_Log]2018-09-20 17:22:04,726GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:22:04,726LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:22:04,754LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:22:05,037[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:22:05,037Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:22:05,038localVersion 1-1
+[LL_Log]2018-09-20 17:22:05,038[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:22:05,039[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:22:05,039LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:22:05,039LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:25:33,638PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:25:33,729GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:25:33,729GetSDCardPath 
+[LL_Log]2018-09-20 17:25:33,729GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:25:33,730LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+=====================
+[LL_Log]2018-09-20 17:42:45,637PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:42:45,728GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:42:45,728GetSDCardPath 
+[LL_Log]2018-09-20 17:42:45,728GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:42:45,728LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:42:45,756LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:42:46,028[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:42:46,028Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:42:46,029localVersion 1-1
+[LL_Log]2018-09-20 17:42:46,029[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:42:46,030[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:42:46,030LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:42:46,030LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:43:12,929PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:43:13,022GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:43:13,022GetSDCardPath 
+[LL_Log]2018-09-20 17:43:13,022GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:43:13,022LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:43:13,050LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:43:13,329[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:43:13,329FirstExport
+[LL_Log]2018-09-20 17:43:13,336FirstExport.DLLFileName ... code/assembly-csharp.u
+[LL_Log]2018-09-20 17:43:13,336[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:43:13,336LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:43:13,337FirstExport.ExportMD5 ... apkmd5/md5.zip
+[LL_Log]2018-09-20 17:43:13,337[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[LL_Log]2018-09-20 17:43:13,337LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip
+[LL_Log]2018-09-20 17:43:13,358LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 17:43:13,359LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip,True
+[LL_Log]2018-09-20 17:43:13,380[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:43:13,391[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:43:13,392LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:43:13,392LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:47:02,617PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:47:02,711GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:47:02,711GetSDCardPath 
+[LL_Log]2018-09-20 17:47:02,712GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:47:02,712LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:47:02,716LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:47:02,731[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:47:02,732Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:47:02,732localVersion 1-1
+[LL_Log]2018-09-20 17:47:02,733[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:47:02,733[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:47:02,733LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:47:02,733LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:51:52,460PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:51:52,553GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:51:52,553GetSDCardPath 
+[LL_Log]2018-09-20 17:51:52,553GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:51:52,553LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:51:52,557LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:51:52,572[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:51:52,573Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:51:52,573localVersion 1-1
+[LL_Log]2018-09-20 17:51:52,574[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:51:52,574[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:51:52,575LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:51:52,575LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 17:53:05,640PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 17:53:05,732GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 17:53:05,733GetSDCardPath 
+[LL_Log]2018-09-20 17:53:05,733GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:53:05,733LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 17:53:05,737LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 17:53:05,753[FirstExport] version 1-1
+[LL_Log]2018-09-20 17:53:05,753Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 17:53:05,754localVersion 1-1
+[LL_Log]2018-09-20 17:53:05,754[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 17:53:05,754[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 17:53:05,754LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 17:53:05,754LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 18:09:59,244PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 18:09:59,342GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 18:09:59,342GetSDCardPath 
+[LL_Log]2018-09-20 18:09:59,342GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 18:09:59,342LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+=====================
+[LL_Log]2018-09-20 20:06:10,167PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 20:06:10,226GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 20:06:10,226GetSDCardPath 
+[LL_Log]2018-09-20 20:06:10,226GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:06:10,227LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+=====================
+[LL_Log]2018-09-20 20:08:03,038PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 20:08:03,146GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 20:08:03,147GetSDCardPath 
+[LL_Log]2018-09-20 20:08:03,147GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:08:03,147LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:08:03,179LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 20:08:03,479[FirstExport] version 1-1
+[LL_Log]2018-09-20 20:08:03,479FirstExport
+[LL_Warning]2018-09-20 20:08:03,486Delete C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/setting.pkg
+[LL_Log]2018-09-20 20:08:03,491FirstExport.DLLFileName ... code/assembly-csharp.u
+[LL_Log]2018-09-20 20:08:03,491[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:08:03,491LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:08:03,492FirstExport.ExportMD5 ... apkmd5/md5.zip
+[LL_Log]2018-09-20 20:08:03,492[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[LL_Log]2018-09-20 20:08:03,492LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip
+[LL_Log]2018-09-20 20:08:03,492LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip,True
+[LL_Log]2018-09-20 20:08:03,505[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 20:08:03,532LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 20:08:03,554[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 20:08:03,554LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:08:03,554LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+[LL_Log]2018-09-20 20:36:05,729PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 20:36:05,829GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 20:36:05,829GetSDCardPath 
+[LL_Log]2018-09-20 20:36:05,829GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:36:05,829LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:36:05,858LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 20:36:06,186[FirstExport] version 1-1
+[LL_Log]2018-09-20 20:36:06,186FirstExport
+[LL_Warning]2018-09-20 20:36:06,192Delete C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/setting.pkg
+[LL_Log]2018-09-20 20:36:06,196FirstExport.DLLFileName ... code/assembly-csharp.u
+[LL_Log]2018-09-20 20:36:06,196[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:36:06,196LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:36:06,197FirstExport.ExportMD5 ... apkmd5/md5.zip
+[LL_Log]2018-09-20 20:36:06,197[ExportFile]E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[LL_Log]2018-09-20 20:36:06,197LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip
+[LL_Log]2018-09-20 20:36:06,224LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/code/assembly-csharp.u,True
+[LL_Log]2018-09-20 20:36:06,224LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apkmd5/md5.zip,True
+[LL_Log]2018-09-20 20:36:06,247[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 20:36:06,252[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 20:36:06,252LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:36:06,252LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+=====================
+=====================
+[LL_Log]2018-09-20 20:40:35,158PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2018-09-20 20:40:35,233GameStart.GetSDCardPath Init error: System.Exception: JNI: Init'd AndroidJavaClass with null ptr!
+  at UnityEngine.AndroidJavaClass..ctor (IntPtr jclass) [0x0001d] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:622 
+  at UnityEngine.AndroidJavaObject.get_JavaLangClass () [0x00015] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:600 
+  at UnityEngine.AndroidJavaObject.FindClass (System.String name) [0x00001] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:591 
+  at UnityEngine.AndroidJavaClass._AndroidJavaClass (System.String className) [0x00013] in C:\buildslave\unity\build\Runtime\Export\AndroidJavaImpl.cs:611 
+  at UnityEngine.AndroidJavaClass..ctor (System.String className) [0x00009] in C:\buildslave\unity\build\artifacts\generated\common\runtime\AndroidJavaBindings.gen.cs:92 
+  at URLs.GetSDCardPath () [0x00007] in E:\xiaoyongqiang\BuildGAME-RPG\BuildingGame\Assets\Plugins\Scripts\GameStart.cs:82 
+[LL_Log]2018-09-20 20:40:35,233GetSDCardPath 
+[LL_Log]2018-09-20 20:40:35,234GetApkRootCfg: E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:40:35,234LoadFileForm:path = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2018-09-20 20:40:35,263LoadFileForm:loaded = E:/xiaoyongqiang/BuildGAME-RPG/BuildingGame/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2018-09-20 20:40:35,482[FirstExport] version 1-1
+[LL_Log]2018-09-20 20:40:35,482Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2018-09-20 20:40:35,483localVersion 1-1
+[LL_Log]2018-09-20 20:40:35,484[FirstExport] dllCallback success True-
+[LL_Log]2018-09-20 20:40:35,484[FirstExport] md5Callback success True-
+[LL_Log]2018-09-20 20:40:35,484LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2018-09-20 20:40:35,484LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u

@@ -13,13 +13,13 @@ public class PlatformSDKPlugin : MonoBehaviour
             {
                 GameObject go = new GameObject("_PlatformSDK");
                 GameObject.DontDestroyOnLoad(go);
-#if !UNITY_EDITOR && UNITY_ANDROID
-                _instance = go.AddComponent<PlatformSDKAndroidFNPlugin>();
-#elif !UNITY_EDITOR && UNITY_IPHONE
-                _instance = go.AddComponent<PlatformSDKIOSPlugin>();
-#else
+//#if !UNITY_EDITOR && UNITY_ANDROID
+//                _instance = go.AddComponent<PlatformSDKAndroidFNPlugin>();
+//#elif !UNITY_EDITOR && UNITY_IPHONE
+//                _instance = go.AddComponent<PlatformSDKIOSPlugin>();
+//#else
                 _instance = go.AddComponent<PlatformSDKDumyPlugin>();
-#endif
+//#endif
                 _instance.Init();
             }
 
@@ -38,11 +38,11 @@ public class PlatformSDKPlugin : MonoBehaviour
     }
     public virtual string GetCodeVersion()
     {
-        return null;
+        return "1";
     }
     public virtual string GetVersionName()
     {
-        return null;
+        return "1";
     }
     public virtual bool Restart()
     {
