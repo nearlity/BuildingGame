@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
@@ -84,7 +84,7 @@ public class UILabel : Text
         }
         set
         {
-            _gradientTop = value;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   _gradientTop = value;
             if (useGradient)
             {
                 SetVerticesDirty();
@@ -485,6 +485,7 @@ public class UILabel : Text
     {
         base.OnValidate();
         //refresh label type
+        //this.raycastTarget = false;
         this.labelType = this.labelType;
         //set dirty
         this.SetVerticesDirty();

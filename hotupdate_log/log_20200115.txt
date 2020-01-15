@@ -1,0 +1,266 @@
+=====================
+[LL_Log]2020-01-15 14:46:48,486PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2020-01-15 14:46:48,587GameStart.GetSDCardPath Init error: System.NullReferenceException: Object reference not set to an instance of an object
+  at URLs.GetSDCardPath () [0x00056] in D:\xiaoyongqiang\AndroidFlyingChess\Flying-ChessBuilding\Assets\Plugins\Scripts\GameStart.cs:94 
+[LL_Log]2020-01-15 14:46:48,587GetSDCardPath 
+[LL_Log]2020-01-15 14:46:48,587GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-15 14:46:48,587LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-15 14:46:48,637LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2020-01-15 14:46:49,478[FirstExport] version 1-1
+[LL_Log]2020-01-15 14:46:49,478Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2020-01-15 14:46:49,480localVersion 1-1
+[LL_Log]2020-01-15 14:46:49,483[FirstExport] dllCallback success True-
+[LL_Log]2020-01-15 14:46:49,484[FirstExport] md5Callback success True-
+[LL_Log]2020-01-15 14:46:49,484LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-15 14:46:49,484LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-15 14:46:49,777LoadFileForm:loaded = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u,True
+[LL_Log]2020-01-15 14:46:49,845==GameMain Awake==1/15/2020 2:46:49 PM
+[LL_Log]2020-01-15 14:46:49,950819x436  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1618-D 
+ processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
+gdName:Emulated GPU running OpenGL ES 3.0 graphMemory:2988 sysMemory:16330 processorCount:4 
+graphicsDeviceVendor:Emulated, graphicsDeviceVersion:OpenGL ES 3.0 [emulated], maxTextureSize:4096
+[LL_Log]2020-01-15 14:46:49,951PlatformSDK type=DumyPlatformSDK
+[LL_Log]2020-01-15 14:46:49,955HotUpdateManager.Init
+[LL_Log]2020-01-15 14:46:49,976file count: 104 init time: 19
+[LL_Log]2020-01-15 14:46:49,986HotUpdateManager.StartHotUpdate
+[LL_Log]2020-01-15 14:46:50,148LoadManifest
+[LL_Log]2020-01-15 14:46:50,219ShaderManager.Load
+[LL_Log]2020-01-15 14:46:50,401InitGame.Font
+[LL_Warning]2020-01-15 14:46:51,575ResItem(font/miniyahei)--assetbundle with DEPENT_SINGLE_ASSET format contains more than one assets
+[LL_Log]2020-01-15 14:46:51,600InitGame.common_atlas
+[LL_Log]2020-01-15 14:46:52,069BezierManager.Load
+[Warning]2020-01-15 14:46:52,174 Tiled GPU perf. warning: RenderTexture color surface (819x436) was not cleared/discarded. See TiledGPUPerformanceWarning.ColorSurface label in Profiler for info
+[TRACK]
+[Warning]2020-01-15 14:47:00,439 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,442 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,443 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,443 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,444 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,444 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 14:47:00,604 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 14:47:00,604 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 14:47:00,605 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 14:47:00,607 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[TRACK]UnityEngine.Transform:set_parent(Transform)
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+=====================
+[LL_Log]2020-01-15 17:26:19,736PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Error]2020-01-15 17:26:19,820GameStart.GetSDCardPath Init error: System.NullReferenceException: Object reference not set to an instance of an object
+  at URLs.GetSDCardPath () [0x00056] in D:\xiaoyongqiang\AndroidFlyingChess\Flying-ChessBuilding\Assets\Plugins\Scripts\GameStart.cs:94 
+[LL_Log]2020-01-15 17:26:19,820GetSDCardPath 
+[LL_Log]2020-01-15 17:26:19,820GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-15 17:26:19,821LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-15 17:26:19,886LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2020-01-15 17:26:20,488[FirstExport] version 1-1
+[LL_Log]2020-01-15 17:26:20,489Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2020-01-15 17:26:20,491localVersion 1-1
+[LL_Log]2020-01-15 17:26:20,492[FirstExport] dllCallback success True-
+[LL_Log]2020-01-15 17:26:20,493[FirstExport] md5Callback success True-
+[LL_Log]2020-01-15 17:26:20,493LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-15 17:26:20,493LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-15 17:26:20,545LoadFileForm:loaded = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u,True
+[LL_Log]2020-01-15 17:26:28,993==GameMain Awake==1/15/2020 5:26:28 PM
+[LL_Log]2020-01-15 17:26:28,995699x436  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1618-D 
+ processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
+gdName:Emulated GPU running OpenGL ES 3.0 graphMemory:2988 sysMemory:16330 processorCount:4 
+graphicsDeviceVendor:Emulated, graphicsDeviceVersion:OpenGL ES 3.0 [emulated], maxTextureSize:4096
+[LL_Log]2020-01-15 17:26:28,997PlatformSDK type=DumyPlatformSDK
+[LL_Log]2020-01-15 17:26:29,000HotUpdateManager.Init
+[LL_Log]2020-01-15 17:26:29,015file count: 104 init time: 12
+[LL_Log]2020-01-15 17:26:29,022HotUpdateManager.StartHotUpdate
+[LL_Log]2020-01-15 17:26:29,192LoadManifest
+[LL_Log]2020-01-15 17:26:29,222ShaderManager.Load
+[LL_Log]2020-01-15 17:26:29,412InitGame.Font
+[LL_Warning]2020-01-15 17:26:30,593ResItem(font/miniyahei)--assetbundle with DEPENT_SINGLE_ASSET format contains more than one assets
+[LL_Log]2020-01-15 17:26:30,617InitGame.common_atlas
+[LL_Log]2020-01-15 17:26:31,082BezierManager.Load
+[Warning]2020-01-15 17:26:31,154 Tiled GPU perf. warning: RenderTexture color surface (699x436) was not cleared/discarded. See TiledGPUPerformanceWarning.ColorSurface label in Profiler for info
+[TRACK]
+[Warning]2020-01-15 17:26:34,017 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,018 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,019 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,020 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,020 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,021 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:34,178 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 17:26:34,179 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 17:26:34,180 The referenced script on this Behaviour (Game Object 'icon') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+GameObjectPool:GetGo()
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 17:26:34,182 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[TRACK]UnityEngine.Transform:set_parent(Transform)
+SelectAccountUI:RefreshAccountLists()
+SelectAccountUI:SelectPage(Int32)
+SelectAccountUI:RefreshPageDataList()
+SelectAccountUI:OnCreate()
+UICom:LoadGoFinish(ResItem, GameObject)
+UICom:LoadGoFinishCallback()
+
+[Warning]2020-01-15 17:26:36,772 The referenced script (AtlasImage) on this Behaviour is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:36,772 The referenced script on this Behaviour (Game Object 'Image') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[Warning]2020-01-15 17:26:36,773 The referenced script on this Behaviour (Game Object 'Image') is missing!
+[TRACK]UnityEngine.Object:Instantiate(GameObject)
+UICom:LoadFinish(ResItem)
+UIComPanel:LoadFinish(ResItem)
+Res.ResItem:Result()
+Res.<>c__DisplayClass1:<DelayResItem>b__0()
+Res.ResDelayCallManager:Update()
+
+[LL_Warning]2020-01-15 17:26:37,075LoadRes in not awaked component would cause releaseres bug...
+[LL_Error]2020-01-15 17:26:39,959unkown panelID: 5

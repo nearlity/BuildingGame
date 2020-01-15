@@ -68,6 +68,10 @@ public class BezierSpline : MonoBehaviour
 	{
 		return points[index];
 	}
+    public void ModifyPoint(int index, Vector3 pos)
+    {
+        points[index] = pos;
+    }
 
 	public void SetControlPoint (int index, Vector3 point)
 	{

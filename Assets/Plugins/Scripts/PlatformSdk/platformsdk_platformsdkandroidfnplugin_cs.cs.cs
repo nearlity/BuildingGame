@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-#if UNITY_EDITOR || UNITY_ANDROID
+#if UNITY_EDITOR || UNITY_ANDROID || ANDROID_MOBILE
 public class PlatformSDKAndroidFNPlugin : PlatformSDKAndroidPlugin
 {
     protected Action _checkBinaryFinishedCB = null;

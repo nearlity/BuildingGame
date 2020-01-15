@@ -49,7 +49,6 @@ public static class Utils
 	public const String SVR_RPC_HEAD = "SVR_RPC_";
 
 	#endregion
-
 	#region 时间格式化
 
 	/// <summary>
@@ -69,10 +68,13 @@ public static class Utils
 	/// <returns>日期字符串</returns>
 	public static String FormatTime(this long datetime)
 	{
-		DateTime.FromBinary(datetime);
-		return datetime.ToString("yyyy-MM-dd HH:mm:ss");
+		DateTime data = DateTime.FromBinary(datetime);
+        return data.ToString("yyyy-MM-dd HH:mm:ss");
 	}
-
+    public static long Get1970ToNowSeconds()
+    {
+        return (System.DateTime.UtcNow.ToUniversalTime().Ticks - 621355968000000000) / 10000000;
+    }
 	/// <summary>
 	/// 时间戳转为C#格式时间。
 	/// </summary>

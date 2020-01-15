@@ -18,6 +18,9 @@ public class ApplicationEx
         {
 #if ANDROID_MOBILE 
             return RuntimePlatform.Android;
+#endif
+#if WIN_HOTUPDATE
+            return RuntimePlatform.WindowsPlayer;
 #else
             return Application.platform;
 #endif
@@ -65,9 +68,9 @@ public class URLs
 			case RuntimePlatform.IPhonePlayer:
 				_persistentDataPath = string.Format("{0}/", Application.persistentDataPath);
 				break;
-			case RuntimePlatform.WindowsWebPlayer:
-				_persistentDataPath = string.Format("{0}/", Application.persistentDataPath);
-				break;
+            //case RuntimePlatform.WindowsWebPlayer:
+            //    _persistentDataPath = string.Format("{0}/", Application.persistentDataPath);
+            //    break;
 			}
 			return _persistentDataPath;
 		}
@@ -126,9 +129,9 @@ public class URLs
 			case RuntimePlatform.IPhonePlayer:
 				_streamingAssetsPath = string.Format("file://{0}/", Application.streamingAssetsPath);
 				break;
-			case RuntimePlatform.WindowsWebPlayer:
-				_persistentDataPath = string.Format("{0}/", Application.streamingAssetsPath);
-				break;
+            //case RuntimePlatform.WindowsWebPlayer:
+            //    _persistentDataPath = string.Format("{0}/", Application.streamingAssetsPath);
+            //    break;
 			}
 			return _streamingAssetsPath;
 		}
@@ -191,7 +194,6 @@ public class GameStart : MonoBehaviour
 	void Awake()
 	{
 		instance = this;
-
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
 		GameObject uiGo = GameObject.Find("UI").gameObject;
@@ -331,9 +333,9 @@ public class GameStart : MonoBehaviour
 
         switch (ApplicationEx.platform)
 		{
-            case RuntimePlatform.WindowsWebPlayer:
-			WebPlayerCheckServerVersion();
-			return;
+            //case RuntimePlatform.WindowsWebPlayer:
+            //WebPlayerCheckServerVersion();
+            //return;
 		}
 
         switch (ApplicationEx.platform)
@@ -462,12 +464,12 @@ public class GameStart : MonoBehaviour
 	void EnterGame(Type t)
 	{
 		gameObject.AddComponent(t);
-		if (ApplicationEx.platform!=  RuntimePlatform.WindowsWebPlayer)
-		{
-            Logger.LogHandler -= LogHandler;
-            Application.logMessageReceived -= HandleMessageReceived;
-            _logWriter.Release();
-		}
+        //if (ApplicationEx.platform!=  RuntimePlatform.WindowsWebPlayer)
+        //{
+        //    Logger.LogHandler -= LogHandler;
+        //    Application.logMessageReceived -= HandleMessageReceived;
+        //    _logWriter.Release();
+        //}
 	}
 
 	void StartHotUpdate()

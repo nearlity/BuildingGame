@@ -1,0 +1,120 @@
+=====================
+[Log]2020-01-08 18:01:28,725 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Warning]2020-01-08 18:01:28,835 AddComponent asking for invalid type
+[TRACK]UnityEngine.GameObject:AddComponent(Type)
+GameStart:EnterGame(Type) (at Assets/Plugins/Scripts/GameStart.cs:466)
+GameStart:EnterGame() (at Assets/Plugins/Scripts/GameStart.cs:461)
+GameStart:TryHotUpdate() (at Assets/Plugins/Scripts/GameStart.cs:364)
+GameStart:Update() (at Assets/Plugins/Scripts/GameStart.cs:454)
+
+=====================
+[Log]2020-01-08 18:06:47,835 PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[Warning]2020-01-08 18:06:47,926 AddComponent asking for invalid type
+[TRACK]UnityEngine.GameObject:AddComponent(Type)
+GameStart:EnterGame(Type) (at Assets/Plugins/Scripts/GameStart.cs:466)
+GameStart:EnterGame() (at Assets/Plugins/Scripts/GameStart.cs:461)
+GameStart:TryHotUpdate() (at Assets/Plugins/Scripts/GameStart.cs:364)
+GameStart:Update() (at Assets/Plugins/Scripts/GameStart.cs:454)
+
+=====================
+[LL_Log]2020-01-08 18:07:28,310PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Log]2020-01-08 18:07:28,407GetSDCardPath 
+[LL_Log]2020-01-08 18:07:28,407GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:07:28,407LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:07:28,449LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2020-01-08 18:07:28,713[FirstExport] version 1-1
+[LL_Log]2020-01-08 18:07:28,713FirstExport
+[LL_Log]2020-01-08 18:07:29,098FirstExport.DLLFileName ... code/assembly-csharp.u
+[LL_Log]2020-01-08 18:07:29,098[ExportFile]D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/code/assembly-csharp.u C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-08 18:07:29,098LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/code/assembly-csharp.u
+[LL_Log]2020-01-08 18:07:29,099FirstExport.ExportMD5 ... apkmd5/md5.zip
+[LL_Log]2020-01-08 18:07:29,099[ExportFile]D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apkmd5/md5.zip C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apkmd5/md5.zip
+[LL_Log]2020-01-08 18:07:29,099LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apkmd5/md5.zip
+[LL_Log]2020-01-08 18:07:29,133LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/code/assembly-csharp.u,True
+[LL_Log]2020-01-08 18:07:29,134LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apkmd5/md5.zip,True
+[LL_Log]2020-01-08 18:07:29,159[FirstExport] dllCallback success True-
+[LL_Log]2020-01-08 18:07:29,168[FirstExport] md5Callback success True-
+[LL_Log]2020-01-08 18:07:29,168CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2020-01-08 18:07:29,183[DownLoadText]http://localhost:80/game/root_cfg.xml?type=67&ver=76&sign=6b2349eb
+[LL_Error]2020-01-08 18:07:33,253Error: ConnectFailure (由于目标计算机积极拒绝，无法连接。
+)
+[TRACK]  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.DownloadDataCore (System.Uri address, System.Object userToken) [0x00000] in <filename unknown>:0 
+[LL_Error]2020-01-08 18:07:33,254CheckServerVersion Download serverCfg Failed
+=====================
+[LL_Log]2020-01-08 18:11:16,886PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Log]2020-01-08 18:11:16,967GetSDCardPath 
+[LL_Log]2020-01-08 18:11:16,967GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:11:16,967LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:11:17,005LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2020-01-08 18:11:17,217[FirstExport] version 1-1
+[LL_Log]2020-01-08 18:11:17,217Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2020-01-08 18:11:17,218localVersion 1-1
+[LL_Log]2020-01-08 18:11:17,218[FirstExport] dllCallback success True-
+[LL_Log]2020-01-08 18:11:17,219[FirstExport] md5Callback success True-
+[LL_Log]2020-01-08 18:11:17,219CheckServerVersion Download http://localhost:80/game/root_cfg.xml
+[LL_Log]2020-01-08 18:11:17,234[DownLoadText]http://localhost:80/game/root_cfg.xml?type=81&ver=5&sign=171e095b
+[LL_Error]2020-01-08 18:11:21,287Error: ConnectFailure (由于目标计算机积极拒绝，无法连接。
+)
+[TRACK]  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.DownloadDataCore (System.Uri address, System.Object userToken) [0x00000] in <filename unknown>:0 
+[LL_Error]2020-01-08 18:11:21,287CheckServerVersion Download serverCfg Failed
+=====================
+[LL_Log]2020-01-08 18:20:40,841PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Log]2020-01-08 18:20:40,938GetSDCardPath 
+[LL_Log]2020-01-08 18:20:40,939GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:20:40,939LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:20:40,993LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[Exception]2020-01-08 18:20:41,006 XmlException: 'Hotupdate' is expected  Line 5, position 4.
+[TRACK]Mono.Xml2.XmlTextReader.Expect (System.String expected)
+Mono.Xml2.XmlTextReader.ReadEndTag ()
+Mono.Xml2.XmlTextReader.ReadContent ()
+Mono.Xml2.XmlTextReader.ReadContent ()
+Mono.Xml2.XmlTextReader.Read ()
+System.Xml.XmlTextReader.Read ()
+System.Xml.XmlDocument.ReadNodeCore (System.Xml.XmlReader reader)
+System.Xml.XmlDocument.ReadNodeCore (System.Xml.XmlReader reader)
+System.Xml.XmlDocument.ReadNode (System.Xml.XmlReader reader)
+System.Xml.XmlDocument.Load (System.Xml.XmlReader xmlReader)
+System.Xml.XmlDocument.LoadXml (System.String xml)
+GameStart+<GetApkRootCfg>c__AnonStorey3.<>m__0 (UnityEngine.WWW www, System.String errorInfo) (at Assets/Plugins/Scripts/GameStart.cs:573)
+GameStart+<LoadFileForm>c__Iterator0.MoveNext () (at Assets/Plugins/Scripts/GameStart.cs:599)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+
+=====================
+[LL_Log]2020-01-08 18:20:59,790PlatformSDKPlugin type=PlatformSDKDumyPlugin
+[LL_Log]2020-01-08 18:20:59,882GetSDCardPath 
+[LL_Log]2020-01-08 18:20:59,882GetApkRootCfg: D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:20:59,883LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml
+[LL_Log]2020-01-08 18:20:59,904LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/apk_cfg.xml,True
+[LL_Log]2020-01-08 18:21:00,193[FirstExport] version 1-1
+[LL_Log]2020-01-08 18:21:00,193Load LocalVersion C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/apk_cfg.xml
+[LL_Log]2020-01-08 18:21:00,194localVersion 1-1
+[LL_Log]2020-01-08 18:21:00,194[FirstExport] dllCallback success True-
+[LL_Log]2020-01-08 18:21:00,194[FirstExport] md5Callback success True-
+[LL_Log]2020-01-08 18:21:00,195LoadLocalDLL C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-08 18:21:00,195LoadFileForm:path = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u
+[LL_Log]2020-01-08 18:21:00,244LoadFileForm:loaded = file://C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/code/assembly-csharp.u,True
+[LL_Log]2020-01-08 18:21:00,669==GameMain Awake==1/8/2020 6:21:00 PM
+[LL_Log]2020-01-08 18:21:00,671664x436  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1618-D 
+ processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
+gdName:NVIDIA GeForce GTX 1060 3GB graphMemory:2988 sysMemory:16330 processorCount:4 
+graphicsDeviceVendor:NVIDIA, graphicsDeviceVersion:Direct3D 11.0 [level 11.1], maxTextureSize:16384
+[LL_Log]2020-01-08 18:21:00,672PlatformSDK type=DumyPlatformSDK
+[LL_Log]2020-01-08 18:21:00,677HotUpdateManager.Init
+[LL_Log]2020-01-08 18:21:00,677MogoFilePath need Export
+[LL_Log]2020-01-08 18:21:00,677[ExportFile]D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/setting.pkg C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/setting.pkg
+[LL_Log]2020-01-08 18:21:00,677LoadFileForm:path = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/setting.pkg
+[LL_Log]2020-01-08 18:21:00,691LoadFileForm:loaded = D:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/setting.pkg,True
+[LL_Log]2020-01-08 18:21:00,731file count: 104 init time: 10
+[LL_Log]2020-01-08 18:21:00,732HotUpdateManager.StartHotUpdate
+[LL_Log]2020-01-08 18:21:00,878LoadManifest
+[LL_Log]2020-01-08 18:21:00,910ShaderManager.Load
+[LL_Log]2020-01-08 18:21:01,082InitGame.Font
+[LL_Warning]2020-01-08 18:21:02,104ResItem(font/miniyahei)--assetbundle with DEPENT_SINGLE_ASSET format contains more than one assets
+[LL_Log]2020-01-08 18:21:02,128InitGame.common_atlas
+[LL_Log]2020-01-08 18:21:02,608BezierManager.Load
