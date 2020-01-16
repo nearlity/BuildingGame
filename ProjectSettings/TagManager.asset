@@ -13,29 +13,29 @@ TagManager:
   - UI
   - 
   - 
+  - UI_3D
+  - SelfPlayer
+  - OtherPlayer
+  - Monster
+  - NPC
+  - Scene
+  - Light
+  - SceneRunable
+  - SceneObsWall
+  - SceneRoof
+  - SceneSafeWall
+  - Invisible
+  - Transport
+  - SkyBox
+  - Death
+  - TileNode
   - 
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Collider2D
+  - T4M
   - 
   m_SortingLayers:
   - name: Default

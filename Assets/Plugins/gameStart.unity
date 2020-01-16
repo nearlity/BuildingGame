@@ -1107,7 +1107,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 32
@@ -1773,7 +1773,7 @@ GameObject:
   - component: {fileID: 2096359881}
   - component: {fileID: 2096359880}
   - component: {fileID: 2096359879}
-  - component: {fileID: 2096359878}
+  - component: {fileID: 2096359877}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1781,7 +1781,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!92 &2096359878
+--- !u!92 &2096359877
 Behaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1807,7 +1807,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1824,7 +1824,7 @@ Camera:
   field of view: 47
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294442975
