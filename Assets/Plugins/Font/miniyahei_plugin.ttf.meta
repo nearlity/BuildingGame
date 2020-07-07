@@ -1,8 +1,7 @@
 fileFormatVersion: 2
 guid: ce9c3193d20af5d4fb80373e8ea2257f
-timeCreated: 1515259777
-licenseType: Pro
 TrueTypeFontImporter:
+  externalObjects: {}
   serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
@@ -12,10 +11,13 @@ TrueTypeFontImporter:
   fontName: SimHei
   fontNames:
   - FZHuPo-M04S
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 35a584a6679d9bc40b349b5f2e0c26e9, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
   userData: 
-  assetBundleName: font/miniyahei.u
+  assetBundleName: 
   assetBundleVariant: 

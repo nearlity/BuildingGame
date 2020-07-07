@@ -98,7 +98,7 @@ public class URLs
 		Logger.Error("GameStart.GetSDCardPath Init error: {0}", e.ToString());
 		}
 		#endif
-		return null;
+		return "";
 	}
 
 	private static string _streamingAssetsPath;
@@ -343,6 +343,9 @@ public class GameStart : MonoBehaviour
 		case RuntimePlatform.Android:
 			Logger.Log("GetSDCardPath " + URLs.GetSDCardPath());
 			StartHotUpdate();
+			#if WINDOW_PACK
+			    LoadStreamingDllAndEnterGame();
+			#endif
 			break;
 		case RuntimePlatform.WindowsPlayer:
 			//windows返回路径自带file://

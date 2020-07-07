@@ -1,5 +1,5 @@
 [LOG]GameMain Awake
-[LL_Log]==GameMain Awake==9/20/2018 5:25:34 PM
+[LL_Log]==GameMain Awake==9/20/2018 5:42:46 PM
 [LL_Log]615x371  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1116-D 
  processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
 gdName:Emulated GPU running OpenGL ES 3.0 graphMemory:2986 sysMemory:16330 processorCount:4 

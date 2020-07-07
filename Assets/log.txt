@@ -1,26 +1,84 @@
 [LOG]GameMain Awake
-[LL_Log]==GameMain Awake==9/20/2018 5:42:46 PM
-[LL_Log]615x371  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1116-D 
+[LL_Log]==GameMain Awake==7/6/2020 8:45:47 PM
+[LL_Log]655x471  deviceModel:MS-7982 (MSI)  deviceName:CDGAME-A1618-D 
  processorType:Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 
-gdName:Emulated GPU running OpenGL ES 3.0 graphMemory:2986 sysMemory:16330 processorCount:4 
+gdName:Emulated GPU running OpenGL ES 3.0 graphMemory:2988 sysMemory:16330 processorCount:4 
 graphicsDeviceVendor:Emulated, graphicsDeviceVersion:OpenGL ES 3.0 [emulated], maxTextureSize:4096
 [LL_Log]PlatformSDK type=DumyPlatformSDK
-[LL_Log]HotUpdateManager.Init
-[LL_Log]file count: 57 init time: 9
-[LL_Log][MD5Manager.Init]
-[LL_Error]MD5ZipServerVersionLocalPath can not find
-[LL_Error]Zip不存在: C:/Users/xiaoyongqiang/AppData/LocalLow/nearlity/RPG/newestmd5/md5.zip
-[EXCEPTION]DirectoryNotFoundException: Could not find a part of the path "C:\Users\xiaoyongqiang\AppData\LocalLow\nearlity\RPG\newestmd5\md5.txt".
-[TRACK]System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:292)
-System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share)
-(wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-System.IO.File.OpenRead (System.String path) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/File.cs:363)
-System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/StreamReader.cs:167)
-System.IO.StreamReader..ctor (System.String path)
-(wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
-System.IO.File.OpenText (System.String path) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/File.cs:368)
-MD5FullFile.Load (System.String filePath)
-MD5Manager.Init (System.Action callback)
-HotUpdateManager.Init ()
-GameMain.Start ()
+[LL_Log]GameMain Start2
+[LL_Log]GameMain Start3
+[LL_Log]SkipHotUpdate：MogoFileSystem.Instance.InitD:/xiaoyongqiang/AndroidFlyingChess/Flying-ChessBuilding/Assets/StreamingAssets/setting.pkg
+[LL_Log]file count: 152 init time: 44
+[LL_Error]can not load tabfile: Settings/TableFile/buff
+[LL_Error]can not load tabfile: Settings/TableFile/bufftype
+[LL_Error]can not load tabfile: Settings/TableFile/career_model
+[LL_Error]can not load tabfile: Settings/TableFile/missile
+[LL_Error]can not load tabfile: Settings/TableFile/monster
+[LL_Error]can not load tabfile: Settings/TableFile/movectrl
+[LL_Error]can not load tabfile: Settings/TableFile/sceneconf
+[LL_Error]can not load tabfile: Settings/TableFile/shakescreen
+[LL_Error]can not load tabfile: Settings/TableFile/skill
+[LL_Error]can not load tabfile: Settings/TableFile/skillsound
+[LL_Error]can not load tabfile: Settings/TableFile/specialeffect
+[LL_Error]can not load tabfile: Settings/TableFile/subskill
+[LL_Error]can not load tabfile: Settings/TableFile/wingbindpos
+[LL_Error]can not load tabfile: Settings/TableFile/roledress
+[LL_Error]can not load tabfile: Settings/TableFile/npc
+[LL_Error]can not load tabfile: Settings/TableFile/npcmodel
+[LL_Error]can not load tabfile: Settings/TableFile/attriddata
+[LL_Error]can not load tabfile: Settings/TableFile/transport
+[LL_Error]can not load tabfile: Settings/TableFile/careerskill
+[LL_Error]can not load tabfile: Settings/TableFile/fightfigure
+[LL_Error]can not load tabfile: Settings/TableFile/equip
+[LL_Error]can not load tabfile: Settings/TableFile/roomconfig
+[LL_Error]can not load tabfile: Settings/TableFile/item
+[LL_Error]can not load tabfile: Settings/TableFile/functiongiftpack
+[LL_Error]can not load tabfile: Settings/TableFile/task
+[LL_Error]can not load tabfile: Settings/TableFile/taskgiftpack
+[LL_Error]can not load tabfile: Settings/TableFile/careerchiefmodel
+[LL_Error]can not load tabfile: Settings/TableFile/notelist
+[LL_Error]can not load tabfile: Settings/TableFile/currencyconf
+[LL_Error]can not load tabfile: Settings/TableFile/itemuse
+[LL_Error]can not load tabfile: Settings/TableFile/dungeonconfig
+[LL_Error]can not load tabfile: Settings/TableFile/newbieguide
+[LL_Error]can not load tabfile: Settings/TableFile/mount
+[LL_Error]can not load tabfile: Settings/TableFile/mountcastinfo
+[LL_Error]can not load tabfile: Settings/TableFile/generaldata
+[LL_Error]can not load tabfile: Settings/TableFile/herobook
+[LL_Error]can not load tabfile: Settings/TableFile/carddata
+[LL_Error]can not load tabfile: Settings/TableFile/cardfightcampattrdata
+[LL_Error]can not load tabfile: Settings/TableFile/magicemitter
+[LL_Error]can not load tabfile: Settings/TableFile/nodetrigger
+[LL_Error]can not load tabfile: Settings/TableFile/thrower
+[LL_Error]can not load tabfile: Settings/TableFile/nodebattlechapter
+[LL_Error]can not load tabfile: Settings/TableFile/shop
+[LL_Error]can not load tabfile: Settings/TableFile/itemtypename
+[LL_Error]can not load tabfile: Settings/TableFile/maincopy
+[LL_Error]can not load tabfile: Settings/TableFile/nodegridetype
+[LL_Error]can not load tabfile: Settings/TableFile/randname
+[LL_Error]can not load tabfile: Settings/TableFile/openfunction
+[LL_Error]can not load tabfile: Settings/TableFile/storydialog
+[LL_Error]can not load tabfile: Settings/TableFile/taskputobjinfo
+[LL_Error]can not load tabfile: Settings/TableFile/propname
+[LL_Error]can not load tabfile: Settings/TableFile/role
+[LL_Error]can not load tabfile: Settings/TableFile/sceneobjposfile
+[LL_Error]can not load tabfile: Settings/TableFile/sceneputmontermanager
+[LL_Log]LoadManifest
+[LL_Log]ShaderManager.Load
+[LL_Log]InitGame.Font
+[LL_Warning]ResItem(font/miniyahei)--assetbundle with DEPENT_SINGLE_ASSET format contains more than one assets
+[LL_Log]InitGame.common_atlas
+[LL_Log]BezierManager.Load
+[WARNING]Tiled GPU perf. warning: RenderTexture color surface (655x471) was not cleared/discarded. See TiledGPUPerformanceWarning.ColorSurface label in Profiler for info
+[WARNING]The referenced script (AtlasImage) on this Behaviour is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'bg') is missing!
+[WARNING]The referenced script on this Behaviour (Game Object 'bg') is missing!
+[WARNING]Tiled GPU perf. warning: RenderTexture color surface (655x471) was not cleared/discarded. See TiledGPUPerformanceWarning.ColorSurface label in Profiler for info
+[EXCEPTION]ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+[TRACK]System.Collections.Generic.List`1[System.Int32].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+CreateAccountUI.RefreshProfessionList ()
+CreateAccountUI.OnCreate ()
+UICom.LoadGoFinish (Res.ResItem item, UnityEngine.GameObject loadedGo)
+UICom.LoadGoFinishCallback ()
 

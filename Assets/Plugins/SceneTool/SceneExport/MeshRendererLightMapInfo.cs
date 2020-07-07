@@ -1,4 +1,65 @@
-﻿using UnityEngine;
+﻿//using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//
+//public class MeshRendererLightMapInfo : MonoBehaviour 
+//{
+//	public struct LightInfo
+//	{
+//		public Renderer render;
+//		public int lightIndex ;
+//		public Vector4 lightmapScaleOffset;
+//	}
+//	public List<LightInfo> lightmapRenderer = new List<LightInfo>();
+//	public int lightmapIndex = 65535;
+//	public Vector4 lightmapScaleOffset = new Vector4(1, 1, 0, 0);
+//
+//	void Awake()
+//	{
+//		foreach (var item in lightmapRenderer) 
+//		{
+//			if (item.render == null)
+//				continue;
+//			item.render.lightmapIndex = item.lightIndex;
+//			item.render.lightmapScaleOffset = item.lightmapScaleOffset;
+//		
+//		}
+//
+//	}
+//	private void FindRender(ref List<LightInfo> result,Transform go)
+//	{
+//		if (go == null)
+//			return;
+//		if (go.gameObject.isStatic) {
+//			var temp = go.GetComponent<Renderer> ();
+//			if (temp != null) 
+//			{
+//				LightInfo data = new LightInfo ();
+//				data.render = temp;
+//				data.lightIndex = temp.lightmapIndex;
+//				data.lightmapScaleOffset = temp.lightmapScaleOffset;
+//				result.Add (data);
+//			}
+//		}
+//		if (go.childCount > 0) 
+//		{
+//			for (int i = 0; i < go.childCount; i++) {
+//				var childTrans = go.transform.GetChild (i);
+//				FindRender (ref result, go);
+//			}
+//		}
+//	}
+//	[ContextMenu("RendererInit")]
+//	void RendererInit()
+//	{
+//		lightmapRenderer = new List<LightInfo> ();
+//		FindRender (ref lightmapRenderer, transform);
+//	}
+//
+//}
+
+
+using UnityEngine;
 using System.Collections;
 
 public class MeshRendererLightMapInfo : MonoBehaviour 
@@ -32,3 +93,4 @@ public class MeshRendererLightMapInfo : MonoBehaviour
 		lightmapRenderer.lightmapScaleOffset = lightmapScaleOffset;
 	}
 }
+
